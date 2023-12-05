@@ -1,0 +1,232 @@
+#containerMain {
+    border-style: solid;
+    border-color: green;
+    width: 100%;
+}
+
+h1 {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 60px;
+    text-align: center;
+}
+
+#imgMeal {
+    height: 50%;
+}
+
+#textMeal {
+    margin-top: 50%;
+}
+
+.main-container {
+    margin-top: 60px;
+}
+
+.container {
+    max-width: 90%;
+}
+
+.loader {
+    height: 100px;
+    width: 100px;
+    border: 10px solid #CCC;
+    border-radius: 100%;
+    border-top-color: transparent;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    animation-name: spin;
+    animation-duration: 700ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+#message {
+    display: none;
+    margin-top: 50px;
+    text-align: center;
+    color: #888;
+}
+
+.card-recipe {
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.card-long {
+    min-height: 480px;
+}
+
+.card-short {
+    min-height: 510px;
+}
+
+.long-title {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 2em;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-text {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+.title-index {
+    padding-bottom: 50px;
+}
+
+.button-container {
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+@media (min-width: 450px) {
+    .card-long {
+        min-height: 550px;
+    }
+}
+
+@media (min-width: 485px) {
+    .card-short {
+        min-height: 530px;
+    }
+}
+
+
+@media (min-width: 600px) {
+    .container {
+        width: 90%;
+        max-width: 650px;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-long {
+        min-height: 490px;
+    }
+
+    .card-short {
+        min-height: 440px;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-long {
+        min-height: 430px;
+    }
+
+    .card-short {
+        min-height: 380px;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 1050px) {
+    .container {
+        max-width: 1100px;
+    }
+}
+
+
+
+/* Seccción Main*/
+
+.banner {
+    display: flex;
+    padding: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 50px;
+}
+
+.ArticuleImagenMain {
+    display: flex;
+    width: 100%;
+    max-width: 300px;
+
+}
+
+.imagenGeneral {
+    position: relative;
+}
+
+.imagenesPrincipal {
+    position: relative;
+
+}
+
+
+.PortadaPlatillo img {
+    max-width: 100%;
+    z-index: 1;
+}
+
+.buscar button {
+    color: #030302;
+    background-color: #d77c1d;
+    padding: 14px 14px 12px 12px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.buscar input {
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+}
+
+footer {
+    bottom: 0;
+}
+
+#recetas-container {
+    display: flex;
+}
+
+#ingredientes-container {
+    display: flex;
+}
+
+.card-ingredient {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+.card-ingredient img {
+    max-width: 200px;
+}
